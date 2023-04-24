@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Form(props) {
 
-const[firstName, setFirstName] = useState("vincent")
+const[firstName, setFirstName] = useState("John")
 
 //uses useState hook from react to create  a state variable in form of array
 //named firstname
@@ -10,7 +10,7 @@ const[firstName, setFirstName] = useState("vincent")
 //firstelement of the array is initialised with string"vincent"
 //second element of array  setfirstName is 
 // a function used to update the first element
-const[lastName, setLastName] =useState("tommi");
+const[lastName, setLastName] =useState("Doe");
 const[submittedData, setSubmittedData] = useState([]);
   function handleFirstNameChange(event){
 // its a  function handleLastNamechange 
